@@ -1137,6 +1137,8 @@ section:not(#hero) {
     padding-bottom: 35px;
     font-weight: 700; }
   #pricing .price-block .price {
+    text-decoration: none;
+    color: inherit;
     background-color: #bbb;
     width: 70px;
     height: 70px;

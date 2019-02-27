@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Инструкция для подписчиков HousePicker</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,600,700&amp;subset=cyrillic" rel="stylesheet">
+  <style>
+    * {
+      box-sizing: border-box;
+      transition: all 300ms ease-in-out;
+    }
+    body {
+      font-family: 'Montserrat', sans-serif;
+      color: #222;
+      margin: 0;
+      padding: 0;
+    }
+    code {
+      background-color: #ddd;
+      padding: 4px;
+      border-radius: 3px;
+      font-size: .9em;
+    }
+    .container {
+      max-width: 920px;
+      margin: 0 auto;
+      letter-spacing: 0.025em;
+      line-height: 1.6em;
+    }
+    .hero {
+      background-image: url(../img/hero_min.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-attachment: fixed;
+      height: 350px;
+      margin-bottom: 30px;
+      display: flex;
+      align-items: flex-end;
+    }
+    .hero h1 {
+      color: #eee;
+      margin: 0;
+      margin-bottom: 30px;
+      font-size: 3em;
+      line-height: 1.1em;
+      text-shadow: 7px 3px 10px black;
+      letter-spacing: 0.025em;
+      font-weight: 600;
+    }
+    .btn {
+      display: inline-flex;
+      flex-basis: auto;
+      align-items: center;
+      margin-top: 40px;
+      padding: 10px 15px;
+      background-color: #ddd;
+      border-radius: 1em;
+      text-decoration: none;
+      color: inherit;
+    }
+    .btn:hover {
+      background-color: #eee;
+    }
+    .btn img {
+      width: 15px;
+      margin-right: 10px;
+    }
+  </style>
+</head>
+<body>
+  <div class="hero">
+    <div class="container">
+      <h1>Инструкция для подписчиков HousePicker</h1>
+    </div>
+  </div>
+  <div class="container">
+    <h3>Получение UserID</h3>
+    <p>Нам необходимо узнать свой UserID в Telegram.
+    Для этого пишем в личное сообщение боту <a href="http://t.me/userinfobot" target="_blank">@userinfobot</a> в Telegram сообщение <code>start</code> и в ответ получаем свой id. Далее необходимо переслать полученный id саппорту HousePicker <a href="https://vk.com/housepicker">https://vk.com/housepicker</a></p>
+    <h3>Активация подписки</h3>
+    <p>Заходим в Telegram и добавляем к себе <a href="http://t.me/sampgos_bot" target="_blank">@sampgos_bot</a>. Для активации нажимаем кнопку "Start", либо прописываем <code>/start</code> в сообщении.</p>
+    <p><strong>Ура, вы подключены к HousePicker!</strong></p>
+
+    <a class="btn" href="/"><img src="../img/back.svg"> На главную</a>
+  </div>
+
+  
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-135002425-1%22%3E"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-135002425-1');
+  </script>
+</body>
+</html>
